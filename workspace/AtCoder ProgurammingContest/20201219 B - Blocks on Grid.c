@@ -1,5 +1,5 @@
 //パナソニックプログラミングコンテスト（AtCoder Beginner Contest 186）
-//IDE上で実行確認はしていません。
+//IDE上で実行確認はしていません
 //これは不正解の解答です
 #include <stdio.h>
 #include <stdlib.h>

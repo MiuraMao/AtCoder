@@ -1,5 +1,5 @@
 //パナソニックプログラミングコンテスト（AtCoder Beginner Contest 186）
-//IDE上で実行確認はしていません。
+//IDE上で実行確認はしていません
 #include <stdio.h>
 
 int N;
