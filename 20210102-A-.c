@@ -32,5 +32,5 @@ int main(void){
 	}else if(sumA == sumB){
 		printf("%d\n", sumA);
 	}
-	return 0;
+return 0;
 }
