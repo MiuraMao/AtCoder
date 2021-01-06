@@ -33,7 +33,7 @@ int main(int argc, const char * argv[]){
     	compare = result[0];
       	m = 1;
     	if(compare < result[m]){
-			 compare = result[m] - compare;
+    		compare = result[m] - compare;
     	     m++;
     	}
     	printf("%d\n",compare);
