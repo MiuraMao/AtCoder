@@ -14,7 +14,6 @@ int m;
 int result[100];
 int compare;
 
-
 int main(int argc, const char * argv[]){
 	int H = scanf("%d", &H);
 	int W = scanf("%d", &W);
@@ -23,12 +22,12 @@ int main(int argc, const char * argv[]){
 
 	if(1<=i>=100 && 1<=i>=100){
 		for (i=0;i<=H;i++){
-    		for(j=0;j<=W;j++){
+			for(j=0;j<=W;j++){
         		if (array[i][j]<array[i][j+1]){
         			result[k] = array[i][j+1]-array[i][j];
         			k++;
-            	}
-        	}
+        		}
+			}
     	}
     	compare = result[0];
       	m = 1;
