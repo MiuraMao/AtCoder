@@ -20,8 +20,8 @@ int main(int argc, const char * argv[]){
 	int W = scanf("%d", &W);
 	int **array = (int**)malloc(H*sizeof(int*));
 	array[0] = (int*)malloc(H*W*sizeof(int));
-	if(1<=i>=100 && 1<=i>=100){
 
+	if(1<=i>=100 && 1<=i>=100){
 		for (i=0;i<=H;i++){
     		for(j=0;j<=W;j++){
         		if (array[i][j]<array[i][j+1]){
