@@ -24,18 +24,18 @@ int main(int argc, const char * argv[]){
 		for (i=0;i<=H;i++){
 			for(j=0;j<=W;j++){
 				if (array[i][j]<array[i][j+1]){
-        			result[k] = array[i][j+1]-array[i][j];
-        			k++;
+					result[k] = array[i][j+1]-array[i][j];
+					k++;
 				}
 			}
     	}
     	compare = result[0];
       	m = 1;
-    	if(compare < result[m]){
-    		compare = result[m] - compare;
-    		m++;
-    	}
-    	printf("%d\n",compare);
+      	if(compare < result[m]){
+      		compare = result[m] - compare;
+      		m++;
+      	}
+      	printf("%d\n",compare);
       	//free(array);
     }
 
