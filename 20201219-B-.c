@@ -28,7 +28,7 @@ int main(int argc, const char * argv[]){
 					k++;
 				}
 			}
-    	}
+		}
     	compare = result[0];
       	m = 1;
       	if(compare < result[m]){
