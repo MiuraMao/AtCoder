@@ -23,10 +23,10 @@ int main(int argc, const char * argv[]){
 	if(1<=i>=100 && 1<=i>=100){
 		for (i=0;i<=H;i++){
 			for(j=0;j<=W;j++){
-        		if (array[i][j]<array[i][j+1]){
+				if (array[i][j]<array[i][j+1]){
         			result[k] = array[i][j+1]-array[i][j];
         			k++;
-        		}
+				}
 			}
     	}
     	compare = result[0];
