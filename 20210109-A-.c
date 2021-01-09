@@ -16,20 +16,20 @@ long  factorial(unsigned long N ,unsigned long value,unsigned long i){
 	if (i < N) {
 	i++;
 	factorial(N ,value, i) ;
-    }else{
+	}else{
 		return 0;
-    }
+	}
 }
 
 
-long main3(void){
+long main(void){
 	scanf("%lu", &N);
 	scanf("%lu", &M);
 
 	long int i;
 
 
-  	i = 0;
+	i = 0;
 	value = 1;
 
 	factorial(N ,value, i);
@@ -37,6 +37,6 @@ long main3(void){
 	result = value / M;
 	printf("%lu\n", result % M);
 
-  return 0;
+	return 0;
 }
 
