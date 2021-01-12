@@ -34,14 +34,14 @@ int main(void){
 
 	result = 0;
 	for(i=0; i!=N/2-1; i++){
-    	result = result + (int)A[i] * (int)B[i];
-    }
+		result = result + (int)A[i] * (int)B[i];
+}
 
 	if (result == 0){
 		printf("Yes\n");
-    }else{
+	}else{
 		printf("No\n");
-    }
+	}
 
 	printf("%d\n", result);
 

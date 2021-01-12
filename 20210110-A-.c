@@ -12,15 +12,15 @@ int main(void){
 	if(X > Y){
 		if(X - Y < 3 && X - Y != 0){
 			printf("Yes\n");
-    	}else{
+		}else{
 			printf("No\n");
     	}
-    }else{
+	}else{
 		if(Y - X < 3 && Y - X != 0){
 			printf("Yes\n");
 		}else{
 			printf("No\n");
 		}
-    }
+	}
 	return 0;
 }
