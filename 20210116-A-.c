@@ -27,8 +27,8 @@ max = result[0][0];
 			m = 0;
 			result[k][m] = A[i] * B[j];
 				if(max < result[k][m]){
-				max = result[k][m];
-				printf("%d\n", result[k][m]);
+					max = result[k][m];
+					printf("%d\n", result[k][m]);
 				}
 			m++;
 		}
@@ -40,7 +40,7 @@ max = result[0][0];
 //	for (r=0; r>m; r++){
 //		for (s=0; s>k; s++){
 //			if(max < result[r][s]){
-//        		max = result[r][s];
+//				max = result[r][s];
 //				printf("%d\n", result[r][s]);
 //            }
 //        }
