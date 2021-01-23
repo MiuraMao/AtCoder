@@ -23,8 +23,8 @@ if (islower((int)C[0]) == 0 && islower((int)C[1]) == 0 && islower((int)C[2]) == 
 		//}else{
 			//printf("Lost\n");
         //}
-    }else{
-    	printf("Lost\n");
+	}else{
+		printf("Lost\n");
     }
 }else{
 	printf("Lost\n");
