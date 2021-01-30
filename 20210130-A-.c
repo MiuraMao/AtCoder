@@ -25,7 +25,7 @@ if (C == 0){
 		printf("Aoki\n");
 	}else{
 		printf("Takahashi\n");
-    }
+	}
 }else{
 	do{
 		B -= 1;
