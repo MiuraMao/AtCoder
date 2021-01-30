@@ -20,22 +20,22 @@ if (C == 0){
 	do{
 		A -= 1;
 		B -= 1;
-    }while(A!=0 & B!=0);
+	}while(A!=0 & B!=0);
 	if (A==0){
 		printf("Aoki\n");
-    }else{
+	}else{
 		printf("Takahashi\n");
     }
 }else{
 	do{
 		B -= 1;
 		A -= 1;
-    }while(A!=0 && B!=0);
+	}while(A!=0 && B!=0);
 	if (B==0){
 		printf("Takahashi\n");
-    }else{
+	}else{
 		printf("Aoki\n");
-    }
+	}
 }
 return 0;
 }
