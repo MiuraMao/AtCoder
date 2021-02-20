@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 
-int main13(void)
+int main(void)
 {
     int X, result;
     scanf("%d", &X);
