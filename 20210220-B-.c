@@ -12,11 +12,10 @@ int main(void)
     int i;
     char ch;
     int count;
-
     int result1, result2;
+    char S[999];
 
-char S[999];
-scanf("%s", S);
+    scanf("%s", S);
 
     result1 = 0;
     result2 = 0;
