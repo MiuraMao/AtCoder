@@ -1,6 +1,5 @@
 /*
  * A - I Scream
- *
  */
 
 #include <stdio.h>
